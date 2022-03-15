@@ -86,7 +86,8 @@ body {
 /* Header */
 header {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../img/header-bg.jpeg) fixed center no-repeat /cover;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../img/header-bg.jpeg) fixed center no-repeat;
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
 }
 
